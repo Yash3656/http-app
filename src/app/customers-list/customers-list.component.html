@@ -1,16 +1,10 @@
-<!--Modify the above code to show  phone number as well as website in tabular format.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <button type="button" name="button" routerLink="customers-list">Exercise2</button>
-</div>
-<!--
+<p>Routing comp Works!</p>
+
 <div class="container custom-container-2">
 
    Show it when there is no employee
 
-   CUstomer list table
+   Customer list table
   <div *ngIf="Customers.length !== 0">
     <h3 class="mb-3 text-center">Customer List</h3>
 
@@ -21,6 +15,8 @@
             <th scope="col">User Id</th>
             <th scope="col">Name</th>
             <th scope="col">Email</th>
+            <th scope="col">Phone-No</th>
+            <th scope="col">Website</th>
 
           </tr>
         </thead>
@@ -29,6 +25,8 @@
             <td>{{customer.id}}</td>
             <td>{{customer.name}}</td>
             <td>{{customer.email}}</td>
+            <td>{{customer.phone}}</td>
+            <td>{{customer.website}}</td>
 
           </tr>
         </tbody>
@@ -38,6 +36,3 @@
   </div>
 
 </div>
--->
-<router-outlet></router-outlet>
-<!-- <app-new-https></app-new-https> -->
