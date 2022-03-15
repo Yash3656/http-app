@@ -13,7 +13,7 @@ import { NewHttpsComponent } from './new-https/new-https.component';
   imports: [
     BrowserModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
